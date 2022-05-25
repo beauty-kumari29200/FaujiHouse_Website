@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up figma</title>
+    <style>
+        body {
+           
+            background: #6DE8AD;
+            position: relative;
+        }
+
+        .box1 {
+            position: absolute;
+            width: 1300px;
+            left: -118px;
+            top: 4rem;
+            background: #FFFFFF;
+            border-radius: 146px;
+        }
+
+        .img {
+          position: absolute;
+            width: 560px;
+            height: 520px;
+            left: 930px;
+            top: 300px;
+            z-index: 5;
+
+            background: url(img/soldier.png);
+
+        }
+
+        .img1 {
+          position: absolute;
+            width: 80px;
+            height: 80px;
+            left: 1650px;
+            top: 200px;
+            z-index: 5;
+
+            background: url(img/military-helicopter.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .font {
+          position: absolute;
+            width: 500px;
+            height: 180px;
+            left: 1250px;
+            top: 120px;
+
+            font-family: RomanC;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 56px;
+            line-height: 60px;
+
+            color: #FFFEFE;
+
+            border: 1px solid #FCF7F7;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .img2 {
+          position: absolute;
+          left: 1650px;
+            top: 25px;
+            background: url(img/flag.jpg);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+          
+
+        }
+        /* loginform */
+.login-container{
+ 
+ display: flex; 
+ flex-direction: column;
+ padding: 0 15px;
+ /* row-gap: 1rem; */
+
+}
+.login-container h2{
+  font-size: 3.5rem;
+  margin-left: 20rem;
+}
+.login-container p{
+  font-size: 2rem;
+  margin-left: 25rem;
+}
+.login-container form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+.login-container form span{
+  font-size: 1.5rem;
+  color:#8a8a8a;
+  margin-bottom: 4px;
+}
+.login-container form input{
+  border:1px solid #8a8a8a;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 1rem;
+  background: var(--bg-color) ;
+}
+.login-container form .buttom{
+ outline:none;
+ border:none;
+ background:blue;
+ color:white;
+ font-size: 1.5rem;
+ font-weight: 500;
+ width:44vw;
+ height: 3.8rem;
+ cursor: pointer;
+}
+.login-container form .buttom:hover{
+ background-color: #12d359;
+ color: white;
+}
+.login-container form a{
+  font-size: 1rem;
+  text-align: right;
+}
+.login-container .btn{
+  border-radius:0 ;
+  text-align:center ;
+  background: var(--second-color);
+}
+.login-container .btn:hover{
+  background-color: #12d359;
+}
+.login-image{
+  margin-top: 6rem;
+  min-height:60vh ;
+  opacity: 0.8;
+}
+    </style>
+</head>
+
+<body>
+    <div class="img"></div>
+    <div class="img1"></div>
+    <div class="img2"></div>
+    <div class="font">Find homes first. Tour homes fast.</div>
+    <div class="box1">
+        <div class="login-container">
+            <h2>Welcome , Let's get started</h2>
+            <p>Already have an account.. !<a href="login.html"><strong>Log In</strong></a></p>
+            <!-- login form -->
+            <form action="">
+                <span>Full Name</span>
+                <input type="text" name="" id="" placeholder="Your Name" required>
+                <span>Enter your email address</span>
+                <input type="email" name="" id="" placeholder="youremail@gamil.com" required>
+               <span>Phone</span>
+               <input type="tel" name="" id="" placeholder="enter your number" required>
+                <span>Password</span>
+                <input type="password" name="" id="" placeholder="at least 8" required>
+                 <a href="login.html"><input type="submit" value="Sign Up" class="buttom" ></a>
+             
+ 
+            </form>
+            <br>
+         </div>
+    </div>
+
+</body>
+
+</html>
